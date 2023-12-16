@@ -5,6 +5,7 @@
 If a player has Proficiency in Brewing Supplies they can craft special special brews.
 
 All special brews have the following properties:
+
 - **Threshold**: The cumulative total you need to reach to complete the brew (one roll per time unit)
 - **Cost**: The cost of ingredients paid upon starting the brewing process.
 - **Servings**: How many servings are created. Once the cask is opened, it must be used immediately. No servings can be saved.
@@ -23,7 +24,6 @@ All people with Brewing Supplies proficiency can make basic special brews
 - **DC**: 5 (+3 per drink)
 
 If you spend a hit die to regain HP on a short rest, you may regain one additional d10 of HP. You may only benefit from additional servings of the Restorative Riesling if you spent additional hit dice.
-
 
 ### Studious Sangria
 

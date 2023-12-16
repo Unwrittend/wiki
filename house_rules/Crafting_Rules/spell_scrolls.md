@@ -17,13 +17,13 @@ Characters may create magic scrolls during downtime by performing the following 
 - Cast the spell from their prepared spell list and expend the spell slot.
 - Provide any material components required to cast the spell (if any).
 
-Spell Level | Price
----|---
-1st | 25 gp
-2nd | 75 gp
-3rd | 225 gp
-4th | 675 gp
+| Spell Level | Price  |
+| ----------- | ------ |
+| 1st         | 25 gp  |
+| 2nd         | 75 gp  |
+| 3rd         | 225 gp |
+| 4th         | 675 gp |
 
-*higher levels upon request*
+_higher levels upon request_
 
-![scroll being written](/img/rules/Crafting_Rules/scrolls.png)
+![scroll being written](scrolls.png)

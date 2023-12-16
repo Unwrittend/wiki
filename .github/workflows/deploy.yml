@@ -12,14 +12,17 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+
+      - name: Install node
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: yarn
+          node-version: latest
+          cache: "yarn"
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
+
       - name: Build website
         run: yarn build
 
